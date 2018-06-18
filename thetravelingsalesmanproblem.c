@@ -273,7 +273,7 @@ void cambio_tentativo_B(int *K,int *K_aux)
     int intervalo1,intervalo2;
     a=(int)(N*Random()); // lugar donde insertamos el cambio
     b=(int)(N*Random());	// lugar donde cojemos el cambio
-    delta=(int)(N/2*Random()); // intervalo que cojemos de numeros con los que haremos el cambio. Est· ajustado entre N/2 para que no nos de problemas
+    delta=(int)(N/2*Random()); // intervalo que cojemos de numeros con los que haremos el cambio. Est√° ajustado entre N/2 para que no nos de problemas
 
     if(a==b)
         while(a==b)
